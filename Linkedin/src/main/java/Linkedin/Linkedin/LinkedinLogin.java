@@ -84,7 +84,7 @@ public class LinkedinLogin {
 		
 		logger.log(LogStatus.PASS, "Login Logout validation sucessful");
 		
-		
+		System.out.println("last statement");
 		
 	}
 	
