@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="22850" started-at="2017-09-14T16:55:41Z" finished-at="2017-09-14T16:56:04Z">
+  <suite name="Default suite" duration-ms="17629" started-at="2017-09-14T18:11:14Z" finished-at="2017-09-14T18:11:32Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="22850" started-at="2017-09-14T16:55:41Z" finished-at="2017-09-14T16:56:04Z">
+    <test name="Default test" duration-ms="17629" started-at="2017-09-14T18:11:14Z" finished-at="2017-09-14T18:11:32Z">
       <class name="Linkedin.Linkedin.LinkedinLogin">
-        <test-method status="PASS" signature="initializeVariables()[pri:0, instance:Linkedin.Linkedin.LinkedinLogin@66a3ffec]" name="initializeVariables" is-config="true" duration-ms="5092" started-at="2017-09-14T22:25:41Z" finished-at="2017-09-14T22:25:46Z">
+        <test-method status="PASS" signature="initializeVariables()[pri:0, instance:Linkedin.Linkedin.LinkedinLogin@66a3ffec]" name="initializeVariables" is-config="true" duration-ms="5158" started-at="2017-09-14T23:41:14Z" finished-at="2017-09-14T23:41:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeVariables -->
-        <test-method status="FAIL" signature="loginValidation()[pri:0, instance:Linkedin.Linkedin.LinkedinLogin@66a3ffec]" name="loginValidation" duration-ms="17386" started-at="2017-09-14T22:25:46Z" finished-at="2017-09-14T22:26:04Z">
+        <test-method status="FAIL" signature="loginValidation()[pri:0, instance:Linkedin.Linkedin.LinkedinLogin@66a3ffec]" name="loginValidation" duration-ms="12018" started-at="2017-09-14T23:41:20Z" finished-at="2017-09-14T23:41:32Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [Sign in] but found []]]>
@@ -24,7 +24,7 @@
 	at org.testng.Assert.assertEquals(Assert.java:116)
 	at org.testng.Assert.assertEquals(Assert.java:190)
 	at org.testng.Assert.assertEquals(Assert.java:200)
-	at Linkedin.Linkedin.LinkedinLogin.loginValidation(LinkedinLogin.java:82)
+	at Linkedin.Linkedin.LinkedinLogin.loginValidation(LinkedinLogin.java:83)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -56,7 +56,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginValidation -->
-        <test-method status="PASS" signature="close()[pri:0, instance:Linkedin.Linkedin.LinkedinLogin@66a3ffec]" name="close" is-config="true" duration-ms="307" started-at="2017-09-14T22:26:04Z" finished-at="2017-09-14T22:26:04Z">
+        <test-method status="PASS" signature="close()[pri:0, instance:Linkedin.Linkedin.LinkedinLogin@66a3ffec]" name="close" is-config="true" duration-ms="398" started-at="2017-09-14T23:41:32Z" finished-at="2017-09-14T23:41:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->

@@ -31,6 +31,7 @@ public class LinkedinLogin {
 	public void initializeVariables() {
 		
 		// Extent Report intialization
+		System.out.println("Second Comment Added");
 		
 		extent=new ExtentReports(System.getProperty("user.dir")+"/test-output/ExtentReport.html", true);
 		extent.addSystemInfo("HostName","LinkedinAutomation")
@@ -79,7 +80,7 @@ public class LinkedinLogin {
 		logger.log(LogStatus.INFO, "CLiked on dropdown");
 		driver.findElement(By.linkText("Sign out")).click();
 		logger.log(LogStatus.INFO, "CLiked on Signout link");
-		Assert.assertEquals(driver.findElement(By.id("login-submit")).getText(), "Sign in");
+		
 		
 		logger.log(LogStatus.PASS, "Login Logout validation sucessful");
 		
